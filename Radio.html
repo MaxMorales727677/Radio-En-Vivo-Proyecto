@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang = "en"> 
+<head> 
+    <meta charset= "UTF-8"> 
+    <title> Radio Online </title>
+    <style> 
+        *{margin:0; padding:0; }
+        html{background-color: black;}
+        body{width:1525px; height:900px; margin:auto; background-color: white;}
+        header{width:1525px; height:200px; background-color: white; font-family: Impact; color: black; font-size: 200%; border-bottom-style:solid}
+        section#line1{width:1525px; height:50px; background-color: white; float:left; background-color: white; font-family: Impact; color: black;}
+        section#part1{width:725px; height:50px; background-color: white; float:left;}
+        section#part2{width:750px; height:50px; background-color: white; float:left;}
+        section#box1{width:500px; height:500px; float:left; background-color: black;}
+        section#MainBox{width:525px; height:500px; float:left; background-color: black;}
+        section#box2{width:500px; height:500px; float:left; background-color: black;}
+        section#linea3{width:1525px; height:50px; background-color: white;float:left; font-family: Impact; color: black;}
+        section#linea4{width:1525px; height:100px; background-color: blue; font-family: Impact; float:left; color: white; font-size: 200%;}
+    </style>
+</head> 
+<body> 
+    <header> <h1 align="center"> <img src="https://cdn.dribbble.com/users/1445486/screenshots/3856847/ondas-small.gif" width="1525" height="100"> Maxis Play Music </h1></header>
+    
+    <section id="line1"> 
+        <section id="part1"> <h2 align="center"> ¡Radio en Vivo! </h2></section>
+        <section id="parte2"> <h2 align="center"> <a href="Podcast.html" target="_self"> Podcasts Online </a> </h2></section>
+    </section>
+    
+    <section id="box1"> <p align=center> <br><br><br><br><br><br><br><br><img src="https://i.pinimg.com/originals/c9/97/71/c997712fd1e1f3bf08be79fe6e33fd4f.gif" width="500" height="250"> </p>  </section>
+    <section id="MainBox"> 
+        <p align=center> <br><br>
+            <link href="https://html5players.mexiserver.com/1/css/icast.min.css" type="text/css" rel="stylesheet"> 
+            <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+            <div class="icast" id="stream1" align="center"></div>
+            <script src="https://html5players.mexiserver.com/1/js/icast.min.js"></script>
+            <script> $("#stream1").icast({ URL: "http://78.129.185.84:35868/usastreams", version: "2", artwork: true, show_listeners: true, logo: "https://cdn.dribbble.com/users/1445486/screenshots/3856847/ondas-small.gif", servertitle: "", autoplay: true }) </script> 
+        </p>
+    </section>
+    <section id="box2"> <p align=center> <br><br><br><br><br><br><br><br><img src="https://i.pinimg.com/originals/c9/97/71/c997712fd1e1f3bf08be79fe6e33fd4f.gif" width="500" height="250"> </p></section>
+    <section id="linea3"> </section>
+    <section id="linea4"> <img src="https://cdn.dribbble.com/users/1445486/screenshots/3856847/ondas-small.gif" width="1525" height="100"> </section>
+</body>
+</html>
